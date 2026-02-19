@@ -43,11 +43,7 @@ public class CardapioController {
         }
     }
 
-    /**
-     * Lista todos os itens do cardápio de um restaurante específico.
-     * @param idRestaurante ID do restaurante
-     * @return Lista de CardapioModel do restaurante
-     */
+
     public List<CardapioModel> listarCardapiosPorRestaurante(int idRestaurante) {
         try {
             return cardapioService.listarCardapiosPorRestaurante(idRestaurante);
